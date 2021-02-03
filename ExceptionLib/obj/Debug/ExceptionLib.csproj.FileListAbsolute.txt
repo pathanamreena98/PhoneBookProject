@@ -1,0 +1,6 @@
+C:\mode1\project\PhoneBookApp2\ExceptionLib\bin\Debug\ExceptionLib.dll
+C:\mode1\project\PhoneBookApp2\ExceptionLib\bin\Debug\ExceptionLib.pdb
+C:\mode1\project\PhoneBookApp2\ExceptionLib\obj\Debug\ExceptionLib.csprojAssemblyReference.cache
+C:\mode1\project\PhoneBookApp2\ExceptionLib\obj\Debug\ExceptionLib.csproj.CoreCompileInputs.cache
+C:\mode1\project\PhoneBookApp2\ExceptionLib\obj\Debug\ExceptionLib.dll
+C:\mode1\project\PhoneBookApp2\ExceptionLib\obj\Debug\ExceptionLib.pdb
