@@ -1,0 +1,6 @@
+C:\mode1\project\PhoneBookApp2\EntitiesLib\bin\Debug\EntitiesLib.dll
+C:\mode1\project\PhoneBookApp2\EntitiesLib\bin\Debug\EntitiesLib.pdb
+C:\mode1\project\PhoneBookApp2\EntitiesLib\obj\Debug\EntitiesLib.csproj.CoreCompileInputs.cache
+C:\mode1\project\PhoneBookApp2\EntitiesLib\obj\Debug\EntitiesLib.dll
+C:\mode1\project\PhoneBookApp2\EntitiesLib\obj\Debug\EntitiesLib.pdb
+C:\mode1\project\PhoneBookApp2\EntitiesLib\obj\Debug\EntitiesLib.csprojAssemblyReference.cache
