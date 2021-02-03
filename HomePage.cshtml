@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "HomePage";
+}
+
+
+<div bgcolor="green">
+    <h2 style="background-color:DodgerBlue;box-sizing: border-box;"> My Phone Book Application</h2>
+</div>
+
+<br />
+<form  style="border:1px solid #ccc">
+    <div class="container">
+        @*<h1 style="background-color:DodgerBlue;box-sizing: border-box;">Sign Up Form</h1>*@
+        @*<h3 style="background-color:hsl(9, 100%, 64%); background-position: left top;padding-left: 80px;"> Sign Up Form</h3>*@
+        <h3 style="border:2px solid Violet;width: 200px; background-color: hsla(0, 100%, 50%, 0.3);">Signup Form</h3>
+
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <div>
+            <label for="email"><b>Email</b></label><br />
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+        </div>
+        
+        <div>
+            <label for="psw"><b>Password</b></label><br />
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+        </div>
+
+        <div>
+            <label for="psw-repeat"><b>Confirm Password</b></label><br />
+            <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+        </div>
+
+        <hr/>
+        <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            @*<input type="submit" value="Submit" onclick="function()">*@
+            <input type="button" onClick="location.href='MainPage'" value='Submit' />
+                   
+            @*<script type="Submit">
+                document.getElementById("Submit").onclick =function() {
+                    location.href = "~/PhoneBook/MainPage";
+                };
+            </script>*
+            <button type="submit" class="signupbtn">Sign Up</button>*@
+        </div>
+
+
+
+
+        @*<label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>*@
+
+        @*<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>*@
+
+
+    </div>
+</form>
+
+
+

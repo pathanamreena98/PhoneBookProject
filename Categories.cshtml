@@ -1,0 +1,42 @@
+﻿@model IEnumerable<EntitiesLib.Category>
+
+@{
+    ViewBag.Title = "Categories";
+}
+
+<h2>Categories</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryName)
+            
+
+        </th>
+        <th>
+           <p>Function to perform</p>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink(item.CategoryName,"ContactDetails",new { id = item.CategoryId })
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.CategoryId })*@ 
+            @*@Html.ActionLink("Details", "Details", new { id=item.CategoryId })*@
+            @Html.ActionLink("Delete", "Delete", new { id=item.CategoryId })
+        </td>
+    </tr>
+}
+
+</table>
+@if(TempData["msg"]!=null)
+{
+    <p style="color:crimson">@TempData["msg"].ToString()</p>
+}
